@@ -1,0 +1,90 @@
+﻿body {
+    padding-bottom: 20px;
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+}
+#a4 {
+    width: 22cm; /* Adjust as needed */
+}
+@media (max-width: 767px) {
+    /* Adjust styles for smaller screens (phones) */
+    #a4 {
+        width: 100%; /* Adjust as needed for smaller screens */
+    }
+}
+p {
+    font-family: 'Calibri', sans-serif;
+    font-size: 12pt;
+    padding: 3px;
+    margin: 0px;
+}
+label[for="editor"]{
+    
+}
+
+#editorDiv{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+#page {
+    /*padding-top: 47.24px;*/
+    padding-left: 94.488188976px;
+    padding-right: 75.590551181px;
+    padding-bottom: 94.488188976px;
+}
+#styleTop{
+    display: flex;
+    justify-content: right;
+    padding: 0px 0px;
+    margin-bottom: 10px;
+}
+#styleTop div{
+    background-color: royalblue;
+    width: 460px;
+    height: 40px;
+}
+#meinAnschrift p{
+    text-align: right;
+}
+#firmaAnschrift p{
+    text-align: left;
+}
+#datum p{
+    text-align: right;
+}
+
+#titel p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: bold; 
+    font-size: 15pt;
+}
+
+#mainAnschreiben p {
+    line-height: 2;
+    margin-bottom: 5px;
+}
+
+
+#bye{
+    margin-top: 20px;
+}
+
+.downloadBtn{
+    cursor: pointer;
+    padding: 10px;
+    border-color: black;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#genBtn:hover{
+    border-color: #808080;
+    color: #808080;
+}
+
